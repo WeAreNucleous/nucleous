@@ -1,0 +1,23 @@
+@import url(./constants.css);
+
+body {
+    background-color: var(--main-bg);
+    max-width: 90vw;
+    margin: auto;
+    color: white;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--inter);
+}
+
+p, li, a {
+    font-family: var(--poppins);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
