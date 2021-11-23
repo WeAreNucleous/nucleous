@@ -6,11 +6,11 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 2rem 0;
+    position: relative;
 }
 
 .logo {
-    background-color: red;
-    background-image: linear-gradient(45deg, #ED1B76, #F06646);;
+    background-image: var(--primary-gradient);
     background-size: 100%;
     background-repeat: repeat;
     align-items: center;
@@ -30,6 +30,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    position: absolute;
+    right: 1rem;
 }
 
 .nav-li {
@@ -37,7 +39,7 @@ header {
     align-items: center;
     justify-content: center;
     list-style: none;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
     font-size: 1.2rem;
     letter-spacing: 0.1rem;
 }
@@ -50,6 +52,59 @@ header {
     border: none;
     color: white;
     text-transform: uppercase;
+}
 
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
 
+  .ham {
+    content: "";
+    height: 2.5px;
+    width: 2rem;
+    background-color: white;
+    margin: 0.2rem;
+    transition: 0.2s;
+  }
+
+@media screen and (max-width: 1128px ) {
+
+    .logo {
+        margin: auto;
+    }
+
+    .nav-ul {
+        flex-direction: column;
+        line-height: 5rem;
+        position: absolute;
+        top: 6rem;
+        left: 0;
+        right: 0;
+        transform: translateX(-100%);
+        transition: 0.5s;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .active-ul {
+        transform: translate(0%);
+    }
+
+    .active-ham1 {
+        transform: rotate(-45deg);
+        transform-origin: 70% center;
+    }
+
+    .active-ham2 {
+        display: none;
+    }
+    
+    .active-ham3 {
+        transform: rotate(45deg);
+        transform-origin: 70% center;
+    }
 }
