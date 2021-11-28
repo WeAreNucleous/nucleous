@@ -7,6 +7,8 @@ header {
     justify-content: space-between;
     padding: 2rem 0;
     position: relative;
+    background: var(--main-bg);
+    z-index: 10;
 }
 
 .logo {
@@ -32,6 +34,7 @@ header {
     justify-content: space-evenly;
     position: absolute;
     right: 1rem;
+    background: var(--main-bg);
 }
 
 .nav-li {
@@ -79,11 +82,13 @@ header {
         flex-direction: column;
         line-height: 5rem;
         position: absolute;
-        top: 6rem;
+        top: 4rem;
         left: 0;
         right: 0;
-        transform: translateX(-100%);
+        transform: translateY(-150%);
         transition: 0.5s;
+        z-index: 1;
+        height: 95vh;
     }
 
     .hamburger {
@@ -91,7 +96,7 @@ header {
     }
 
     .active-ul {
-        transform: translate(0%);
+        transform: translateY(0%);
     }
 
     .active-ham1 {
