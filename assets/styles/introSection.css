@@ -12,6 +12,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    margin-bottom: 5rem;
 
 }
 
@@ -21,7 +22,7 @@
 }
 
 .intro-desc {
-    margin: 1rem auto;
+    margin: 3rem auto;
     max-width: 30rem;
 }
 
@@ -31,6 +32,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 190px;
 }
 
 .intro-images{
@@ -45,6 +47,34 @@
     top: 1rem;
 }
 
+
+.companies-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: 40rem;
+    margin-left: -90rem;
+    background: #151A24;
+    width: 100%;
+    padding-top: 4rem;
+}
+
+.google-stats{
+  padding-bottom: 4rem;
+} 
+.airbnb-stats{
+  padding-bottom: 4rem;
+} 
+.facebook-stats {
+  padding-bottom: 4rem;
+}
+.Hubspot-stats{
+  padding-bottom: 4rem;
+}
+.slack-stats{
+  padding-bottom: 4rem;
+}
 /* .image-1 {
 
 }

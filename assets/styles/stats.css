@@ -1,1 +1,20 @@
 @import url(./constants.css);
+.stats-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: 5rem;
+    background: #151A24;
+    width: 100%;
+    padding-top: 4rem;
+}
+.project-stats{
+  padding-bottom: 4rem;
+} 
+.client-stats{
+    padding-bottom: 4rem;
+} 
+.exp-stats {
+    padding-bottom: 4rem;
+}

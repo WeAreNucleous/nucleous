@@ -1,6 +1,6 @@
 :root {
     /* ====== colors here ====== */
-    --main-bg: #151A24;
+    --main-bg: #0D1016;;
     --primary-color-1: #ED0E7E;
     --primary-color-2: #F17E36;
     --primary-gradient: linear-gradient(90deg, var(--primary-color-1) 0%, var(--primary-color-2) 100%);

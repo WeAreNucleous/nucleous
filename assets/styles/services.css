@@ -1,1 +1,46 @@
 @import url(./constants.css);
+
+.services-head {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 59.625px;
+    text-align: center;
+    line-height: 120%;
+    padding-top: 5rem;
+}
+
+.services-subhead {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.25px;
+    line-height: 31px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+.service-card img {
+    width: 100%;
+}
+
+.read-more-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    color: #FFFFFF;
+    background: var(--primary-gradient);
+    border-radius: 4.5px;
+}
+.service-desc{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}

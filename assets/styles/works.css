@@ -1,1 +1,37 @@
 @import url(./constants.css);
+.works{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+.works-head{
+    font-size: 3rem;
+    margin-right: auto;
+}
+.work-desc{
+    margin-right: auto;
+    padding-top: 3rem;
+    max-width: 30rem;
+}
+.work-section {
+   display: flex;
+   flex-direction: row;
+   gap: 5rem;
+   flex-wrap: wrap ;
+   margin-top: 5rem;
+}
+/* .work-image-1 {
+    border: solid 0.1rem rgb(94, 17, 36);
+}
+.work-image-2 {
+    border: solid 0.1rem rgb(94, 17, 36);
+}
+.work-image-3 {
+    border: solid 0.1rem rgb(94, 17, 36);
+}
+.work-image-4 {
+    border: solid 0.1rem rgb(94, 17, 36);
+} */
